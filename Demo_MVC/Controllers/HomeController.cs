@@ -6,14 +6,10 @@ using System.Web.Mvc;
 
 namespace Demo_MVC.Controllers
 {
-    public class LoginController : Controller
+    public class HomeController : Controller
     {
-        // GET: Login
-        public ActionResult Default()
-        {
-            return View();
-        }
-        public ActionResult Demo()
+        // GET: Home
+        public ActionResult HomeIndex()
         {
             return View();
         }
